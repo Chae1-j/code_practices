@@ -7,7 +7,6 @@ class Solution {
 
         for (int i = 0; i < friends.length-1; i++) {
             for (int j = i+1; j < friends.length; j++) {
-
                 String friend1 = friends[i];
                 String friend2 = friends[j];
                 int friend1ToFriend2 = 0;
